@@ -1,0 +1,13 @@
+{
+  "create-new-component": {
+    "prefix": "create-new-component",
+    "body": [
+      "const ComponentName = () => {",
+      "  return <p></p>;",
+      "};",
+      "",
+      "export default ComponentName;"
+    ],
+    "description": "Create a new simple component"
+  }
+}
