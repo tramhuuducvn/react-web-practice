@@ -22,5 +22,6 @@ jobs:
     - name: Test & Build
       run: |
            yarn install
+           yarn lint
            yarn test
            yarn build
