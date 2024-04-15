@@ -9,7 +9,12 @@
         "prettier",
         "plugin:react-hooks/recommended"
     ],
-    "ignorePatterns": ["node_modules/*"],
+    "ignorePatterns": ["node_modules/", "build/"],
+    "parserOptions": {
+        "ecmaVersion": 2020,
+        "project": ["tsconfig.json"],
+        "sourceType": "module"
+    },
     "rules": {
         "@typescript-eslint/no-explicit-any": "warn",
         "@typescript-eslint/no-unused-vars": ["warn", { "vars": "all" }],
