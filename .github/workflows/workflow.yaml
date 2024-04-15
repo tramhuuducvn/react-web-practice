@@ -22,6 +22,6 @@ jobs:
     - name: Test & Build
       run: |
            yarn install
-           yarn lint
+           yarn lint --max-warnings=0
            yarn test
            yarn build
