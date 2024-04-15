@@ -6,6 +6,22 @@
   "ignorePatterns": ["node_modules/*"],
   "rules": {
     "@typescript-eslint/no-explicit-any": "off",
-    "@typescript-eslint/no-unused-vars": "off"
+    "@typescript-eslint/no-unused-vars": "off",
+    "prettier/prettier": [
+      "warn",
+      {
+        "printWidth": 120,
+        "useTabs": false,
+        "tabWidth": 2,
+        "trailingComma": "none",
+        "semi": true,
+        "singleQuote": false,
+        "bracketSpacing": true,
+        "arrowParens": "always",
+        "jsxSingleQuote": false,
+        "bracketSameLine": false,
+        "endOfLine": "lf"
+      }
+    ]
   }
 }
