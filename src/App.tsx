@@ -1,8 +1,7 @@
-import "./App.css";
 import { useRef } from "react";
-import { DropdownRefType } from "./components/Dropdown/index.props";
 import RangeDatePicker from "./components/RangeDatePicker";
 import Dropdown from "./components/Dropdown";
+import { DropdownRefType } from "./components/Dropdown/index.props";
 
 function App() {
     const productRef = useRef<DropdownRefType>;
