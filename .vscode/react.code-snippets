@@ -2,11 +2,14 @@
   "create-new-component": {
     "prefix": "create-new-component",
     "body": [
-      "const ComponentName = () => {",
-      "  return <p></p>;",
+      "interface Props extends React.HTMLAttributes<HTMLDivElement> {}",
+      "",
+      "const ComponentName: React.FC<Props> = ({}: Props) => {",
+      "    return <div></div>;",
       "};",
       "",
-      "export default ComponentName;"
+      "export default ComponentName;",
+      ""
     ],
     "description": "Create a new simple component"
   }

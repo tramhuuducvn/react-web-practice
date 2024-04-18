@@ -1,17 +1,17 @@
-import logo from "./logo.svg";
 import "./App.css";
-import LearnReact from "./components/LearnReact";
+import { useRef } from "react";
+import { DropdownRefType } from "./components/Dropdown/index.props";
+import RangeDatePicker from "./components/RangeDatePicker";
+import Dropdown from "./components/Dropdown";
 
 function App() {
+    const productRef = useRef<DropdownRefType>;
+
     return (
         <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.tsx</code> and save to reload.
-                </p>
-                <LearnReact />
-            </header>
+            <RangeDatePicker />
+            <Dropdown label="Select product" options={["Product 1", "Product 2", "Product 3"]} />
+            <Dropdown label="Select Application" options={["App 1", "App 2", "App 3"]} />
         </div>
     );
 }
