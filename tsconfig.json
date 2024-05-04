@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
-        "noImplicitAny": false,
+        "strict": true,
+        // "noImplicitAny": true,
         "noImplicitReturns": true,
         "noImplicitThis": true,
         "experimentalDecorators": true,
@@ -13,7 +14,6 @@
         "skipLibCheck": true,
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
-        "strict": true,
         "forceConsistentCasingInFileNames": true,
         "noFallthroughCasesInSwitch": true,
         "module": "esnext",
@@ -30,5 +30,5 @@
             // "@components/*": ["./src/components/*"]
         }
     },
-    "include": ["src"]
+    "include": ["src", ".eslintrc"]
 }

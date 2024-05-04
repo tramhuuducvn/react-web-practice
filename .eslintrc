@@ -5,14 +5,14 @@
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
+        "plugin:react-hooks/recommended",
         "eslint-config-prettier",
-        "prettier",
-        "plugin:react-hooks/recommended"
+        "prettier"
     ],
     "ignorePatterns": ["node_modules/", "build/"],
     "parserOptions": {
         "ecmaVersion": 2020,
-        "project": ["tsconfig.json"],
+        "project": "./tsconfig.json",
         "sourceType": "module"
     },
     "rules": {
