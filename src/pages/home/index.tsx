@@ -1,5 +1,5 @@
+import LearnReact from "@components/LearnReact";
 import { useEffect, useState } from "react";
-import LearnReact from "~/components/LearnReact";
 
 const Home = () => {
     const [state, setState] = useState("Hello World!");

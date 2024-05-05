@@ -1,5 +1,5 @@
-import RangeDatePicker from "./components/RangeDatePicker";
-import Dropdown from "./components/Dropdown";
+import Dropdown from "@components/Dropdown";
+import RangeDatePicker from "@components/RangeDatePicker";
 
 function App() {
     return (
