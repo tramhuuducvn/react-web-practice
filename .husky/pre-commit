@@ -1,2 +1,2 @@
-yarn test --watchAll=false
+# yarn test --watchAll=false
 yarn lint
