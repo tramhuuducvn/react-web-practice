@@ -1,4 +1,3 @@
-import LearnReact from "@components/LearnReact";
 import { useEffect, useState } from "react";
 
 const Home = () => {
@@ -23,7 +22,7 @@ const Home = () => {
     return (
         <div>
             <p>{state}</p>
-            <LearnReact />
+            {/* <LearnReact /> */}
         </div>
     );
 };

@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "strict": true,
-        // "noImplicitAny": true,
+        "noImplicitAny": true,
         "noImplicitReturns": true,
         "noImplicitThis": true,
         "experimentalDecorators": true,
@@ -22,13 +22,14 @@
         "isolatedModules": true,
         "noEmit": true,
         "jsx": "react-jsx",
-        "baseUrl": ".",
+        "baseUrl": "src",
         "paths": {
-            "@components/*": ["src/components/*"],
-            "@model/*": ["src/model/*"],
-            "@pages/*": ["src/pages/*"],
-            "@api/*": ["src/api/*"]
+            "@components/*": ["components/*"],
+            "@model/*": ["model/*"],
+            "@pages/*": ["pages/*"],
+            "@api/*": ["api/*"]
         }
     },
-    "include": ["src", ".eslintrc"]
+    "include": [".", "src", ".eslintrc"],
+    "typeRoots": ["./src/types"]
 }
