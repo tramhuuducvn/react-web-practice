@@ -1,5 +1,4 @@
-import Dropdown from "@components/Dropdown";
-
+import Dropdown from "components/Dropdown";
 
 function App() {
     return (

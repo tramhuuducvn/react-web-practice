@@ -24,12 +24,11 @@
         "jsx": "react-jsx",
         "baseUrl": "src",
         "paths": {
-            "@components/*": ["components/*"],
-            "@model/*": ["model/*"],
-            "@pages/*": ["pages/*"],
-            "@api/*": ["api/*"]
+            "components/*": ["components/*"],
+            "model/*": ["model/*"]
         }
     },
-    "include": [".", "src", ".eslintrc"],
-    "typeRoots": ["./src/types"]
+    "include": ["src", "src/../*.ts"],
+    "typeRoots": ["./src/types"],
+    "exclude": ["node_modules", "babel.config.js"]
 }
